@@ -50,26 +50,6 @@ Skip if `fraud_artifact.joblib` already exists.
 Output: `model_output/fraud_artifact.joblib`
 
 ---
-
-## Run Locally
-
-```bash
-cd platform
-cp .env.example .env
-docker compose up --build
-```
-
-Test:
-
-```bash
-bash verify_local.sh
-```
-
-- API: http://localhost:8000
-- Docs: http://localhost:8000/docs
-
----
-
 ## Deploy to GCP
 
 ### Setup
