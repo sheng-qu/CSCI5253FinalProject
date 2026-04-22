@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Step 6 — Create a Compute Engine VM and start the worker container.
-# Fill in DATABASE_URL below with the value from step 04.
+
 set -euo pipefail
 source "$(dirname "$0")/env.sh"
 
