@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Step 1 — Enable required GCP APIs.
-# Run once per project.
+
 set -euo pipefail
 source "$(dirname "$0")/env.sh"
 
