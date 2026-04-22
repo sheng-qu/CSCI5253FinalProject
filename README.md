@@ -106,13 +106,3 @@ curl -X POST https://<url>/score \
 curl https://<url>/results/1
 ```
 
----
-
-## API
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/score` | POST | Submit transaction |
-| `/results/{id}` | GET | Get prediction |
-| `/health` | GET | Health check |
-| `/docs` | GET | Swagger UI |
