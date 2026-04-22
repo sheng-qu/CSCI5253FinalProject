@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Step 4 — Create Cloud SQL (Postgres) instance, database, and user.
-# This takes 5-10 minutes.
+
 set -euo pipefail
 source "$(dirname "$0")/env.sh"
 
