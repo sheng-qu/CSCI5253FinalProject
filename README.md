@@ -30,7 +30,6 @@ FinalProject/
 │   │   ├── 05_deploy_cloudrun.sh  # Deploy API to Cloud Run
 │   │   └── 06_setup_worker_vm.sh  # Create Compute Engine VM & start worker
 │   ├── docker-compose.yml         # Local dev environment
-│   └── demo.sh                    # Live demo against deployed GCP API
 ├── requirements.txt
 ```
 
