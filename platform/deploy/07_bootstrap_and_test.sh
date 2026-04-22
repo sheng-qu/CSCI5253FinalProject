@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Step 7 — Seed Postgres and smoke-test the live API.
-# Fill in API_URL with the Cloud Run URL from step 05.
+
 set -euo pipefail
 source "$(dirname "$0")/env.sh"
 
